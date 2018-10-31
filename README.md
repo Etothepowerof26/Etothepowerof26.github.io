@@ -1,1 +1,1 @@
-readme just for literally nothing but allowing myself to add files.
+literally a test to see if i can integrate bad code onto bad code
