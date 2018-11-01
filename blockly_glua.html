@@ -16,12 +16,28 @@
 		<script src="generators/lua/text.js"> </script>
 		<script src="generators/lua/variables.js"> </script>
 		<script src="generators/lua/variables_dynamic.js"> </script>
+		<script src="helpers/glua_blocks.js"> </script>
 	</head>
 	
 	<body>
 		<div id="blocklyDiv" style="height: 600px; width: 600px;"> </div>
 		
 		<xml xmlns="http://www.w3.org/1999/xhtml" id="toolbox" style="display: none;">
+			<category name="GLua Entity" colour="#ff0000">
+				<block type="player"> </block>
+				<block type="entity"> </block>
+				<block type="all_players"> </block>
+				<block type="all_entities"> </block>
+				<block type="entity_ignite"> </block>
+				<block type="entity_setpos"> </block>
+			</category>
+			
+			<category name="GLua Other" colour="#ff0000">
+				<block type="angle"> </block>
+				<block type="vector"> </block>
+				<block type="color"> </block>
+			</category>
+			
 		  <category name="Logic" colour="#5C81A6">
 			<block type="controls_if"></block>
 			<block type="logic_compare">
